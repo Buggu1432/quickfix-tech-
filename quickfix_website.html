@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Fix Tech Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #000, #0f0);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 48px;
+      color: #0f0;
+      animation: fade 2s infinite alternate;
+    }
+    @keyframes fade {
+      from { opacity: 0.5; }
+      to { opacity: 1; }
+    }
+    .banner {
+      background: url('https://source.unsplash.com/1200x400/?computer,technology') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    section h2 {
+      color: #0f0;
+      border-bottom: 2px solid #0f0;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .product {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product-item {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .product-item:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quick Fix Tech Services</h1>
+  </header>
+
+  <div class="banner">Professional Laptop & Computer Services</div>
+
+  <section>
+    <h2>Our Services</h2>
+    <p>We provide professional repair, maintenance, and installation for laptops, desktops, CCTV systems, and software solutions.</p>
+  </section>
+
+  <section>
+    <h2>Our Products</h2>
+    <div class="product">
+      <div class="product-item">
+        <img src="https://source.unsplash.com/200x150/?laptop" alt="Laptop" style="width:100%;border-radius:5px;">
+        <h3>Laptop Repair</h3>
+        <p>Fast and reliable laptop repairs with genuine parts.</p>
+      </div>
+      <div class="product-item">
+        <img src="https://source.unsplash.com/200x150/?cctv" alt="CCTV" style="width:100%;border-radius:5px;">
+        <h3>CCTV Installation</h3>
+        <p>Secure your premises with professional CCTV setup.</p>
+      </div>
+      <div class="product-item">
+        <img src="https://source.unsplash.com/200x150/?software" alt="Software" style="width:100%;border-radius:5px;">
+        <h3>Software Solutions</h3>
+        <p>All types of software installation and troubleshooting.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Special Offers</h2>
+    <p>Get up to 20% off on CCTV installation this month!</p>
+  </section>
+
+  <footer>
+    Contact us at: 9326181606 | Email: support@quickfixtech.com
+    <br>© 2025 Quick Fix Tech Services. All rights reserved.
+  </footer>
+</body>
+</html>
